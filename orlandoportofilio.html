@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Bucyedusenge Orlando Houston - Aspiring Web Developer" />
+  <meta name="author" content="Bucyedusenge Orlando Houston" />
+  <title>Orlando | Portfolio</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .profile-pic {
+      display: block;
+      margin: 20px auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #007acc;
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header section with your name and title -->
+  <header>
+    <img src="Houston.jpg" alt="Orlando Profile Picture" class="profile-pic" />
+    <h1>Bucyedusenge Orlando Houston</h1>
+    <p>Aspiring Web Developer | UI/UX Enthusiast | Tech Explorer</p>
+  </header>
+
+  <!-- Navigation bar for different sections -->
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- About Me section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m Orlando Houston Bucyedusenge, a passionate learner and aspiring web developer. Customer-focused and technically proficient IT professional with over 3 years of hands-on experience in providing high-level technical support and resolving complex customer issues. Skilled in troubleshooting, customer engagement, and cloud-based technologies with a passion for delivering outstanding customer experiences. A strong communicator with proven ability to collaborate effectively with teams and mentor junior staff. Driven by innovation and committed to continuous learning and improvement.</p>
+    </section>
+
+    <!-- List of programming languages you’re learning -->
+    <section id="languages">
+      <h2>Programming Languages</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (beginner)</li>
+        <li>Python (beginner)</li>
+        <li>SQL (basic knowledge)</li>
+      </ul>
+    </section>
+
+    <!-- Education section with CV download -->
+    <section id="education">
+      <h2>Educational Background</h2>
+      <p>I hold an Advanced diploma in business and Information Technology, second Upper class division and I’m currently studying software development through the Power Learn Project program.</p>
+      <p><a href="orlandoCV.pdf" download>Download My CV</a></p>
+    </section>
+
+    <!-- Your personal interests -->
+    <section id="interests">
+      <h2>Interests</h2>
+      <ul>
+        <li>Web Development – especially HTML, CSS, and UX design</li>
+        <li>Tech Innovations and AI in customer experience</li>
+        <li>Designing clean, user-friendly interfaces</li>
+      </ul>
+    </section>
+
+    <!-- Projects you've worked on -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <!-- Example project card -->
+      <article>
+        <h3>HTML5 Semantic Page</h3>
+        <p>A well-structured static web page using HTML5, focused on accessibility and SEO. <a href="#">View Project</a></p>
+      </article>
+
+      <!-- Another project -->
+      <article>
+        <h3>Simple Portfolio Website</h3>
+        <p>This very portfolio is a live example of semantic structure, clean design, and organized code. <a href="#">View Project</a></p>
+      </article>
+    </section>
+
+    <!-- Contact form -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <!-- User Name Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <!-- Message Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer with copyright -->
+  <footer>
+    <p>&copy; 2025 Bucyedusenge Orlando Houston. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

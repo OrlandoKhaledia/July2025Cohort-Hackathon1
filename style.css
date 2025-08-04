@@ -1,0 +1,132 @@
+/* Set base font and page settings */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  animation: fadeIn 1.5s ease-in;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Container padding for main sections */
+header, nav, main, footer {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Styling the header */
+header {
+  text-align: center;
+  background-color: #492d96;
+  color: white;
+  padding: 40px 20px;
+  position: relative;
+}
+
+/* Profile picture styling */
+header img.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  margin-bottom: 15px;
+  animation: zoomIn 1s ease-in-out;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Navigation menu styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  background-color: #492d96;
+  margin: 0;
+}
+
+nav li {
+  margin: 5px 15px;
+}
+
+/* Navigation link style */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main sections box styling */
+main section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  animation: fadeIn 1s ease-in;
+}
+
+/* Form labels layout */
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Inputs and textarea */
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Submit button styling */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #492d96;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #005f99;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
+  font-size: 0.9em;
+  animation: fadeIn 1.5s ease-in;
+}
